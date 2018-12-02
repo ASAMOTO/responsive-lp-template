@@ -1,13 +1,139 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="ja">
+
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Document</title>
-    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>レスポンシブLPテンプレート</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./lightbox.css" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,500,900&amp;subset=japanese" rel="stylesheet">
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="./jquery.inview.min.js"></script>
+  <script src="./lightbox.js"></script>
 </head>
+
 <body>
-    
+  <section class="hero fd-in" id="hero">
+    <h1>サクッとLP</h1>
+    <p>時間もお金もかけられない、そんな方はサクッとLPで爆速で作りましょう。</p>
+    <a href="https://qiita.com/Y_ASAMOTO/items/90afe7d24467020c17f0">さっそく使ってみる</a>
+  </section>
+  <section class="about fd-in" id="about">
+    <h2 class="section__title">
+      About
+    </h2>
+    <p class="section__title--discription">当サービスについて</p>
+    <div class="about__container">
+      <figure class="about__image">
+        <img src="https://placehold.jp/1200x900.png" alt="ダミー画像">
+      </figure>
+      <div class="about__text">
+        <p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。</p>
+      </div>
+    </div>
+  </section>
+  <section class="point fd-in" id="point">
+    <h2 class="section__title">
+      Point
+    </h2>
+    <p class="section__title--discription">どんな特徴があるの？</p>
+    <ol class="point__list">
+      <li class="point__item">
+        <i>1</i>
+        <p>つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。</p>
+      </li>
+      <li class="point__item">
+        <i>2</i>
+        <p>つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。</p>
+      </li>
+      <li class="point__item">
+        <i>3</i>
+        <p>つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。</p>
+      </li>
+    </ol>
+  </section>
+  <section class="gallery fd-in" id="gallery">
+    <h2 class="section__title">
+      Gallery
+    </h2>
+    <p class="section__title--discription">フォトギャラリー</p>
+    <ul class="gallery__list">
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="1枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="2枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="3枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="4枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="5枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="6枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="7枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+      <li class="gallery__item"><a class="image-link" href="https://placehold.jp/1200x900.png" data-lightbox="image-set"
+          data-title="8枚目の画像"><img src="https://placehold.jp/1200x900.png" alt="ダミー画像"></a></li>
+    </ul>
+  </section>
+  <section class="price fd-in" id="price">
+    <h2 class="section__title">
+      Price
+    </h2>
+    <p class="section__title--discription">価格</p>
+    <ul class="price__list">
+      <li class="price__item">
+        <h3>Standard</h3>
+        <p class="yen">980<span>円/月</span></p>
+        <div class="cando">
+          <ol>
+            <li>HTML+Sass+jQueryでLPを作れる</li>
+            <li>レスポンシブ対応</li>
+            <li>メールで質問可能</li>
+          </ol>
+        </div>
+      </li>
+      <li class="price__item">
+        <h3>Premium</h3>
+        <p class="yen">2,980<span>円/月</span></p>
+        <div class="cando">
+          <ol>
+            <li>PHP+Sass+jQueryでLPを作れる</li>
+            <li>レスポンシブ対応</li>
+            <li>チャット・メールで質問可能</li>
+          </ol>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="cta" id="cta">
+    <h2 class="section__title">
+      さっそく使ってみませんか？
+    </h2>
+    <p class="section__title--discription">永久無料で使えて、商用利用可能なLPテンプレート</p>
+    <div class="cta__btn">
+      <a href="https://qiita.com/Y_ASAMOTO/items/90afe7d24467020c17f0">さっそく使ってみる</a>
+    </div>
+  </section>
+  <footer>
+    <small>&copy; 2018 YUKI ASAMOTO</small>
+  </footer>
+  <script>
+    $(function () {
+      $('.fd-in').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+        if (isInView) {
+          $(this).stop().addClass('fd-done');
+        } else {
+          $(this).stop().removeClass('fd-done');
+        }
+      });
+    });
+  </script>
 </body>
+
 </html>
