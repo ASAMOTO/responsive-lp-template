@@ -4,9 +4,10 @@ $bg-footer: #444;
 %section-padding {
   padding: 100px 20%;
 
-  @media (max-width: 1280px){
+  @media (max-width: 1280px) {
     padding: 80px 10%;
   }
+
   @media (max-width: 768px) {
     padding: 80px 5%;
   }
@@ -220,12 +221,14 @@ section {
       height: auto;
     }
 
-    a{
+    a {
       transition: .5s;
-      &:hover{
+
+      &:hover {
         opacity: .7;
-        img{
-          box-shadow: 0 0 15px rgba(0,0,0,.15);
+
+        img {
+          box-shadow: 0 0 15px rgba(0, 0, 0, .15);
         }
       }
     }
@@ -316,6 +319,7 @@ section {
       transition: .5s;
       border: 2px solid #fff;
       position: relative;
+
       @media (max-width: 768px) {
         display: block;
       }
@@ -337,7 +341,8 @@ section {
         border-color: #FF6B95;
         background: #fff;
         color: #FF6B95;
-        &::after{
+
+        &::after {
           border-color: #FF6B95;
         }
       }
