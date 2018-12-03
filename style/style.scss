@@ -4,6 +4,9 @@ $bg-footer: #444;
 %section-padding {
   padding: 100px 20%;
 
+  @media (max-width: 1280px){
+    padding: 80px 10%;
+  }
   @media (max-width: 768px) {
     padding: 80px 5%;
   }
@@ -216,6 +219,16 @@ section {
       width: 100%;
       height: auto;
     }
+
+    a{
+      transition: .5s;
+      &:hover{
+        opacity: .7;
+        img{
+          box-shadow: 0 0 15px rgba(0,0,0,.15);
+        }
+      }
+    }
   }
 }
 
@@ -273,7 +286,7 @@ section {
 
       li {
         background: #f7f7f7;
-        padding: 10px 0;
+        padding: 10px;
         font-size: 18px;
         border-radius: 6px;
 

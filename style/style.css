@@ -2,6 +2,12 @@
   padding: 100px 20%;
 }
 
+@media (max-width: 1280px) {
+  .about, .point, .gallery, .price, .cta {
+    padding: 80px 10%;
+  }
+}
+
 @media (max-width: 768px) {
   .about, .point, .gallery, .price, .cta {
     padding: 80px 5%;
@@ -229,6 +235,20 @@ section {
   height: auto;
 }
 
+.gallery__item a {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gallery__item a:hover {
+  opacity: .7;
+}
+
+.gallery__item a:hover img {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
 .price {
   background: #f7f7f7;
 }
@@ -290,7 +310,7 @@ section {
 
 .price__item .cando li {
   background: #f7f7f7;
-  padding: 10px 0;
+  padding: 10px;
   font-size: 18px;
   border-radius: 6px;
 }
